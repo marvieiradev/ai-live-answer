@@ -12,6 +12,8 @@ GET {{baseUrl}}/health
 # @name getRooms
 GET {{baseUrl}}/rooms
 
+###
+
 #Create room
 # @name createRoom
 POST {{baseUrl}}/rooms
@@ -31,4 +33,15 @@ Content-Type: application/json
 #Get room questions
 #@name getRoomsQuestion
 GET {{baseUrl}}/rooms/{{roomId}}/questions
+
+
+#Create question
+# @name createQuestion
+POST {{baseUrl}}/rooms/{{roomId}}/questions
+Accept: application/json
+Content-Type: application/json
+
+{
+    'question':"Qualquer coisa",
+}
 
