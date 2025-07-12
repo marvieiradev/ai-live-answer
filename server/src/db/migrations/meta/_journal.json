@@ -15,6 +15,13 @@
       "when": 1752111550993,
       "tag": "0001_many_ultron",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752356451936,
+      "tag": "0002_long_thunderbolts",
+      "breakpoints": true
     }
   ]
 }
