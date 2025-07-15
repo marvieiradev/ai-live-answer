@@ -78,7 +78,7 @@ export function RecordRoomAudio() {
     recorder.current.start();
   }
 
-  if (params.roomId) {
+  if (!params.roomId) {
     return <Navigate replace to="/" />;
   }
 

@@ -22,6 +22,27 @@
       "when": 1752356451936,
       "tag": "0002_long_thunderbolts",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752542701081,
+      "tag": "0003_silky_mindworm",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1752542892921,
+      "tag": "0004_clever_cobalt_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1752543005813,
+      "tag": "0005_amusing_silver_sable",
+      "breakpoints": true
     }
   ]
 }
